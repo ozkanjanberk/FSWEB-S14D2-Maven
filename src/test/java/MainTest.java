@@ -86,7 +86,7 @@ public class MainTest {
     @DisplayName("Bed sınıf değişkenleri doğru type değerlerine sahip mi ?")
     @Test
     public void testBedInstanceTypes() throws NoSuchFieldException {
-        assertThat(bed.getStyle(), instanceOf(String.class));
+       assertThat(bed.getStyle(), instanceOf(String.class));
         assertThat(bed.getHeight(), instanceOf(Integer.class));
         assertThat(bed.getQuilts(), instanceOf(Integer.class));
         assertThat(bed.getSheets(), instanceOf(Integer.class));
